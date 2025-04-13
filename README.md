@@ -105,6 +105,7 @@ saved_articles/
   "seed": 3
 }
 ```
+question 為你想要詢問的輿情相關問題，seed 為擷取的新聞篇數(最多 10 篇，考量到效能問題，建議一開始測試設 3 以內)。
 
 #### 回應格式：
 
@@ -113,6 +114,7 @@ saved_articles/
   "answer": "這是 OpinionBot 回應..."
 }
 ```
+answer 為機器人回應，僅回覆與輿情相關問題。
 
 ### 📘 POST `/api/keypo`
 
@@ -125,6 +127,7 @@ saved_articles/
   "question": "KEYPO 的文章列表功能是什麼？"
 }
 ```
+question 為你想要詢問的 Keypo 文件相關問題。
 
 #### 回應格式：
 
@@ -133,6 +136,7 @@ saved_articles/
   "answer": "KEYPO 的文章列表可展示文章標題、摘要、來源..."
 }
 ```
+answer 為機器人回應，僅在詢問內容與文件相關時回覆。
 
 ---
 
@@ -164,9 +168,9 @@ python test_api.py
 
 ## 🛠 TODO（開發中與未來功能）
 
-- [] 使用 Multi-Threading 併行處理新聞
-- [] 整合本地模型使用
-- [] 支援英文或多國語言
-- [] 建立前端互動頁面
-- [] 撰寫 pytest 、建立 CI/CD
-- [] 建立基於不同 OS 的 Docker Image
+- [ ] 使用 Multi-Threading 併行處理新聞
+- [ ] 整合本地模型使用
+- [ ] 支援英文或多國語言
+- [ ] 建立前端互動頁面
+- [ ] 撰寫 pytest 、建立 CI/CD
+- [ ] 建立基於不同 OS 的 Docker Image
