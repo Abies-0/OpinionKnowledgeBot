@@ -1,0 +1,6 @@
+OpenAI:
+    api_key: ""
+    model: gpt-4o
+
+Sentiment:
+    model: uer/roberta-base-finetuned-jd-binary-chinese
