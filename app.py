@@ -6,7 +6,9 @@ from utils import get_config
 app = Flask(__name__)
 
 opinion_bot = OpinionBot()
+print("-- OpinionBot API serve --")
 keypo_bot = KeypoRAGBot(filename="KEYPO功能手冊文件.md")
+print("-- KeypoRAGBot API serve --")
 
 config = get_config("configs/api_config.yml")
 
