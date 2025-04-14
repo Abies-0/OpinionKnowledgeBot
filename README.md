@@ -21,7 +21,7 @@ pip install -r requirements.txt
 
 建議使用 Python 3.10+
 
-### 2️⃣ 啟動 API Server (目前使用 Flask)
+### 2️⃣ 啟動 API Server (第一次啟用時會在 .cache/huggingface/hub 下載指定模型，時間會比較久。)
 
 ```bash
 python app.py
