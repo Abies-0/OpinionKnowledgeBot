@@ -1,3 +1,4 @@
+beautifulsoup4==4.13.3
 ckip-transformers==0.3.4
 dateparser==1.2.1
 faiss-cpu==1.10.0
