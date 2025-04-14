@@ -1,3 +1,6 @@
+# 以下函式部分參考自 Iceloof/GoogleNews（MIT License）
+# https://github.com/Iceloof/GoogleNews
+
 import re
 import base64
 import urllib.request
